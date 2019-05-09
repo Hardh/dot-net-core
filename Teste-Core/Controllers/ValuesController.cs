@@ -18,6 +18,11 @@ namespace Teste_Core.Controllers
         }
 
         // GET api/values/5
+        /// <summary>
+        /// Teste de Teste
+        /// </summary>
+        /// <param name="id">Parametro ID</param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
